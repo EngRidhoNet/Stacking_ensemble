@@ -3,3 +3,16 @@ kagglehub
 scikit-learn
 pandas
 numpy
+tensorflow
+matplotlib
+seaborn
+# Additional libraries for data processing and visualization
+scipy
+# Optional libraries for advanced features
+plotly
+# Optional libraries for model deployment and serving
+flask
+# Optional libraries for data augmentation and preprocessing
+io
+# Optional libraries for model evaluation and metrics
+scikit-image
