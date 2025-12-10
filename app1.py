@@ -358,8 +358,8 @@ max_per_class = st.sidebar.slider("Max Training Images per Class", 100, 2000, 10
 if st.button("Load Dataset"):
     with st.spinner("Downloading and loading dataset..."):
         try:
-            dataset_path = kagglehub.dataset_download("paultimothymooney/chest-xray-pneumonia")
-            data_dir = Path(dataset_path) / "chest_xray"
+            dataset_path = "dataset"
+            data_dir = Path(dataset_path)
             if not data_dir.exists():
                 for item in Path(dataset_path).iterdir():
                     if item.is_dir() and 'chest' in item.name.lower():
